@@ -1,0 +1,7 @@
+<div id="players-list">
+  <ul>
+    <li>Player One - $50</li>
+    <li>Player Two - $75</li>
+    <li>Player Three - $100</li>
+  </ul>
+</div>
