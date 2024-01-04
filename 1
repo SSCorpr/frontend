@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Betting Site Prototype</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+  <h1 class="text-center my-4">Sports Betting Site Prototype</h1>
+
+  <!-- Navigation Tabs -->
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#players" data-toggle="tab">Available Players</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#portfolio" data-toggle="tab">Your Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scores" data-toggle="tab">Live NFL Scores</a>
+    </li>
+  </ul>
+
+  <!-- Tab Panes -->
+  <div class="tab-content">
+    <div class="tab-pane active" id="players">
+      <!-- Players List -->
+      <h2 class="my-3">Available Players</h2>
+      <p>This section will dynamically list all available players from a spreadsheet with their names and stock prices.</p>
+      <!-- Placeholder for player data -->
+      <div id="players-list">
+        <!-- Player data will be populated here -->
+      </div>
+    </div>
+    <div class="tab-pane" id="portfolio">
+      <!-- Your Portfolio -->
+      <h2 class="my-3">Your Portfolio</h2>
+      <p>This section will show the players you own.</p>
+      <!-- Placeholder for owned player data -->
+      <div id="portfolio-list">
+        <!-- Owned player data will be populated here -->
+      </div>
+    </div>
+    <div class="tab-pane" id="scores">
+      <!-- Live NFL Scores -->
+      <h2 class="my-3">Live NFL Scores</h2>
+      <p>This section will display all the live NFL scores / upcoming games for the week.</p>
+      <!-- Placeholder for live NFL scores -->
+      <div id="live-scores">
+        <!-- NFL scores will be populated here -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS and its dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
